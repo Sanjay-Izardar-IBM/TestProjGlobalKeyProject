@@ -1,0 +1,12 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: TestProjGlobalKeyProject
+  gitServerName: Sanjay_Izardar_IBM
+  gitUrl: https://github.com/Sanjay-Izardar-IBM
+  gitUsername: Sanjay-Izardar-IBM
+  gitBranch: main
+configurationVariables:
+  jdbcfunc.SAPTxStore.failFastMode: false
+  jdbcfunc.SAPTxStore.connPoolAlias: SAP TxStore Pool
